@@ -25,6 +25,7 @@ We are Educational And Open Course To Making Understand All About Protocol Block
   - [CSS Modules](https://nextjs.org/docs/basic-features/built-in-css-support)
   - [Tailwind](https://tailwindcss.com/docs)
 - CMS: [Strapi](https://strapi.com)
+- Our Strapi CMS for [Backend](https://github.com/Blockchains-Studio/blockchain-studio-indonesia)
 - Other features
   - [Service Worker](https://developers.google.com/web/fundamentals/primers/service-workers) for offline support.
   - [IndexedDB](https://developers.google.com/web/ilt/pwa/working-with-indexeddb) for save articles.
