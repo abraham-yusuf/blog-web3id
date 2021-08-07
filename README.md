@@ -161,11 +161,11 @@ You need to generate the dark mode icons too and name them as `dark-16x16.png` a
 The sitemap will be generated dynamically using the `lib/constants` info but you need to also configure the site URL on `public/robots.txt`
 
 ## Cara Berkontribusi Tulisan / Artikel (How To Contribution)
-silahkan email kami [dev@blockchains.studio](mailto:dev@blockchains.studio)
+silahkan email kami [dev@blockchains.studio](mailto:dev.blockchain.studio@gmail.com)
 
 ## License
 
-[MIT License](https://github.com/Blockchains-Studio).
+[MIT License](https://github.com/Blockchains-Studio/frontend-blockchain-studio-indonesia/blob/main/LICENSE).
 
 # OUR SPONSOR AND PARTNER
 
