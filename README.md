@@ -40,7 +40,7 @@ Create your own copy of this project by clone to local machine.
 
 ### Running locally
 
-First, you'll need to have the [Strapi CMS](https://github.com/Blockchains-Studio) running at [http://localhost:1337](http://localhost:1337). You can follow the instructions on that repo to set it up and get it running.
+First, you'll need to have the [Strapi CMS](https://github.com/Blockchains-Studio/blockchain-studio-indonesia) for backend and running at [http://localhost:1337](http://localhost:1337). You can follow the instructions on that repo to set it up and get it running.
 
 Then, create a folder and `git clone` from your copy of this repository.
 
@@ -54,7 +54,7 @@ Install the dependencies and start the dev server.
 The dev server will run on [http://localhost:3000](http://localhost:3000). If it doesn't work make shure that:
 
 - You've added sample data to Strapi (Contributors, categories and articles are necessary)
-- You've set the Roles & Permissions to `find`on Contributors, Categories, articles and pages. (More info on [Strapi CMS](https://github.com/Blockchains-Studio) running locally instructions.)
+- You've set the Roles & Permissions to `find`on Contributors, Categories, articles and pages. (More info on [Strapi CMS](https://github.com/Blockchains-Studio/blockchain-studio-indonesia) running locally instructions.)
 - You've set the `status` of each article and page to be `published`
 
 ### Preview mode
