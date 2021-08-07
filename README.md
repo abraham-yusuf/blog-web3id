@@ -32,7 +32,7 @@ We are Educational And Open Course To Making Understand All About Protocol Block
 
 ## Integrations
 
-This project integrates out-of-the-box with [Strapi CMS](https://github.com/Blockchains-Studio).
+This project integrates out-of-the-box with [Strapi CMS](https://github.com/Blockchains-Studio/blockchain-studio-indonesia).
 
 ## Getting started
 
