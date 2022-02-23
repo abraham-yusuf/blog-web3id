@@ -1,3 +1,5 @@
+@import "tailwindcss/utilities";
+@import "./utilities.css";
 @layer utilities {
   .scroll-snap-x-mandatory {
     scroll-snap-type: x mandatory;
