@@ -1,4 +1,4 @@
-# Blockchain Studio ID Frontend API
+# Blog Web3ID
 We are Educational And Open Course To Making Understand All About Protocol Blockchain For Indonesia
 
 ## Features
@@ -167,8 +167,3 @@ silahkan email kami [dev@blockchains.studio](mailto:dev.blockchain.studio@gmail.
 ## License
 
 [MIT License](https://github.com/Blockchains-Studio/frontend-blockchain-studio-indonesia/blob/main/LICENSE).
-
-# OUR SPONSOR AND PARTNER
-
-[Near Protocol](https://near.org/) adalah platform aplikasi terdesentralisasi yang cukup aman untuk mengelola aset bernilai tinggi seperti uang atau identitas dan cukup berkinerja untuk membuat mereka berguna untuk orang sehari-hari, menempatkan kekuatan dari web terbuka di tangan mereka.
-
