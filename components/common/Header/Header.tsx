@@ -43,7 +43,7 @@ const Header = () => {
         <Bookmark />
       </Button>
       <Link href="/">
-        <a className="serif text-2xl">Blockchain Studio ID</a>
+        <a className="serif text-2xl">Blog Web3ID</a>
       </Link>
       <Button onClick={() => setShowSearch(true)} ariaLabel="Search">
         {showSearch ? <Close /> : <Search />}

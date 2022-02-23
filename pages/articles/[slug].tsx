@@ -75,7 +75,7 @@ function ArticlePage({
             modifiedTime: article?.updated_at as string,
             section: article?.category.title,
             authors: [
-              `'https://blockchains.studio/contributors/'${article?.author.slug}`,
+              `'https://blog.web30.my.id/contributors/'${article?.author.slug}`,
             ],
             tags: [`${article?.category.title}`],
           },
