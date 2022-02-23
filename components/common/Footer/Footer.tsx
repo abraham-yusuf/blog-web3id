@@ -60,23 +60,16 @@ const Footer = ({ categories, pages }: TNavigation) => {
       <ThemeSwitch />
 
       <ExternalLink
-        to="https://blockchains.studio"
-        ariaLabel="Blockchain Studio ID"
+        to="https://web30.my.id"
+        ariaLabel="Web3ID"
         className="mx-auto flex items-center w-max pt-4 py-2 opacity-80 hover:opacity-100 text-sm"
       >
-        Copyright © 2021 Blockchain Studio
-      </ExternalLink>
-
-      <ExternalLink
-        to="https://near.org"
-        ariaLabel="Our Sponsor"
-        className="mx-auto flex items-center w-max pt-4 py-2 opacity-80 hover:opacity-100 text-sm"
-      >
+        Copyright © 2022 Web3ID |  
         Made With{' '}
         <span role="img" aria-label="love">
           💙
         </span>{' '}
-        By Near Protocol
+        By Web3ID
       </ExternalLink>
     </footer>
   )

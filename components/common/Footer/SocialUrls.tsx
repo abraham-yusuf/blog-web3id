@@ -3,11 +3,12 @@ import Instagram from '@components/icons/Instagram'
 import Linkedin from '@components/icons/Linkedin'
 import Twitter from '@components/icons/Twitter'
 import Youtube from '@components/icons/Youtube'
+import Github from '@components/icons/Github'
 import ExternalLink from '@components/ui/Link/ExternalLink'
 import { SOCIAL_USERNAMES } from '@lib/constants'
 
 const SocialUrls = () => {
-  const { twitter, instagram, facebook, youtube, linkedin } = SOCIAL_USERNAMES
+  const { twitter, instagram, facebook, youtube, linkedin, github, } = SOCIAL_USERNAMES
 
   return (
     <ul className="flex py-6 justify-center">
@@ -44,10 +45,20 @@ const SocialUrls = () => {
       {youtube && (
         <li className="px-4">
           <ExternalLink
-            to={`https://youtube.com/channel/${youtube}`}
+            to={`https://youtube.com/c/${youtube}`}
             ariaLabel="Youtube"
           >
             <Youtube width="20" height="20" />
+          </ExternalLink>
+        </li>
+      )}
+      {github && (
+        <li className="px-4">
+          <ExternalLink
+            to={`https://github.com/${github}`}
+            ariaLabel="Github"
+          >
+            <Github width="20" height="20" />
           </ExternalLink>
         </li>
       )}
