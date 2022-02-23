@@ -1,4 +1,4 @@
-# Blog Web3ID
+# Blog Web3ID Blockchain Indonesia Resource
 We are Educational And Open Course To Making Understand All About Protocol Blockchain For Indonesia
 
 ## Features
