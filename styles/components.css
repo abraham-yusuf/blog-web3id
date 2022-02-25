@@ -1,5 +1,3 @@
-@import "tailwindcss/components";
-@import "./components.css";
 @layer components {
   .serif {
     @apply font-serif font-normal;
