@@ -7,10 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Blockchains-Studio/blockchain-studio-indonesia.git"
+    "url": "git+https://github.com/Web3ID/blog-web3id.git"
   },
   "bugs": {
-    "url": "https://github.com/Blockchains-Studio/blockchain-studio-indonesia/issues"
+    "url": "https://github.com/Web3ID/blog-web3id/issues"
   },
   "homepage": "./",
   "scripts": {

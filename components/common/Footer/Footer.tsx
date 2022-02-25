@@ -25,17 +25,31 @@ const Footer = ({ categories, pages }: TNavigation) => {
         </div>
 
         <div>
-          <h3 className={s.heading}>Penulis</h3>
+          <h3 className={s.heading}>Ekosistem</h3>
           <ul className={s.ul}>
             <li>
-              <Link href="/contributors">
-                <a className={s.link}>Kontributor</a>
+              <Link href="https://web30.my.id/">
+                <a className={s.link}>Web3ID</a>
               </Link>
             </li>
-
             <li>
-              <Link href="/pages/contact">
-                <a className={s.link}>Kontak</a>
+              <Link href="https://blog.web30.my.id/">
+                <a className={s.link}>Blog</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="https://dao.web30.my.id/">
+                <a className={s.link}>DAO</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="https://nft.web30.my.id/">
+                <a className={s.link}>NFT</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="https://academy.web30.my.id/">
+                <a className={s.link}>Academy</a>
               </Link>
             </li>
           </ul>
