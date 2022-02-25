@@ -1,7 +1,7 @@
 {
-  "name": "Blockchain Studio ID",
-  "short_name": "Blockchain Studio ID",
-  "description": "Tempat Belajar Teknologi Blockchain Dan Cryptocurrency Indonesia",
+  "name": "Web3ID",
+  "short_name": "Web3ID",
+  "description": "Blog Teknologi Blockchain Dan Cryptocurrency Indonesia",
   "display": "standalone",
   "start_url": "/",
   "theme_color": "#ffffff",
