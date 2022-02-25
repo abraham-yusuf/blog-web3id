@@ -50,7 +50,7 @@ const ArticleCard = ({ article, variant = 'default' }: Props) => {
           </a>
         </Link>
         <div className="text-sm mt-2">
-          Oleh{' '}
+          By{' '}
           <Link href={`/contributors/${article.author.slug}`}>
             <a className="font-bold hover:underline">{article.author.name}</a>
           </Link>

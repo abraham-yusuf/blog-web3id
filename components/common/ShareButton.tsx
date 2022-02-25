@@ -13,7 +13,7 @@ type Props = {
   message?: string
 }
 
-const ShareButton = ({ title, path, message = 'Cek Kabar Blockchain Dan Crypto Terbaru di link berikut' }: Props) => {
+const ShareButton = ({ title, path, message = 'Chech this link' }: Props) => {
   const { addToast } = useToast()
 
   const fullURL = `${SITE_URL}${path}`
@@ -36,7 +36,7 @@ const ShareButton = ({ title, path, message = 'Cek Kabar Blockchain Dan Crypto T
     if (navigator.clipboard) {
       navigator.clipboard
         .writeText(fullURL)
-        .then(() => addToast('Link Sudah di Copy ke clipboard!'))
+        .then(() => addToast('Copied to the clipboard!'))
         .catch(console.error)
     }
   }
@@ -59,7 +59,7 @@ const ShareButton = ({ title, path, message = 'Cek Kabar Blockchain Dan Crypto T
           subfix={<Facebook width={20} height={20} />}
           onClick={onFacebookShare}
         >
-          Share ke Facebook
+          Share on Facebook
         </MenuItem>
         <MenuItem
           subfix={<Twitter width={20} height={20} />}
@@ -68,7 +68,7 @@ const ShareButton = ({ title, path, message = 'Cek Kabar Blockchain Dan Crypto T
           }`}
           external
         >
-          Share ke Twitter
+          Share on Twitter
         </MenuItem>
         <MenuItem unstyled>
           <button

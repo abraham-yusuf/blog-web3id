@@ -22,7 +22,7 @@ export function ContributorsPage({
 
   return (
     <Layout>
-      <Hero title="Kontributor" />
+      <Hero title="Contributors" />
       <ul className="flex flex-col flex-wrap justify-between md:flex-row md:py-6">
         {featured.map((contributor) => (
           <ContributorFeatured

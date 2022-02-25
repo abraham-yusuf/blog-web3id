@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://blog.web30.my.id/sitemap.xml
+Sitemap: https://catatan-abraham-yusuf.vercel.app/sitemap.xml

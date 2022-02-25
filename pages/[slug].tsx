@@ -80,29 +80,29 @@ function CategoryPage({
         <Hero title={category.title} />
         {isTablet ? (
           //Tablet and smaller devices
-          <ArticlesCarousel title="Artikel Populer" articles={articles} />
+          <ArticlesCarousel title="Top stories" articles={articles} />
         ) : (
           <ArticlesHero articles={articles} />
         )}
 
-        <ArticlesList articles={articles} title="Terkini" />
+        <ArticlesList articles={articles} title="Recent" />
 
         <div className="lg:py-24 lg:flex lg:gap-28 lg:mx-auto">
           <ArticlesList
             articles={articles}
-            title="Unggulan"
+            title="Featured"
             variant="top"
             className="lg:w-1/2"
           />
           <ArticlesList
             articles={articles}
-            title="Populer"
+            title="Popular"
             variant="top"
             className="lg:w-1/2"
           />
         </div>
 
-        <ArticlesList articles={articles} title="Artikel Lainnya" />
+        <ArticlesList articles={articles} title="More articles" />
       </Layout>
     </>
   )

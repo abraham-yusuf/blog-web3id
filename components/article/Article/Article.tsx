@@ -7,7 +7,7 @@ import { getMediaURL } from '@lib/api'
 import Image from 'next/image'
 
 function Article({ article }: { article: TArticle | undefined }) {
-  if (!article) return <p>Ada yang salah</p>
+  if (!article) return <p>Ada Sesuatu yang salah</p>
 
   return (
     <article>
@@ -21,7 +21,7 @@ function Article({ article }: { article: TArticle | undefined }) {
         <h1 className="serif pb-4">{article.title}</h1>
 
         <p className="mb-2">
-          Oleh{' '}
+          By{' '}
           <Link href={`/contributors/${article.author.slug}`}>
             <a className="font-bold">{article.author.name}</a>
           </Link>

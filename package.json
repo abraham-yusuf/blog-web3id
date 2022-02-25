@@ -1,7 +1,7 @@
 {
-  "name": "blog-web3id",
+  "name": "blog-web30id",
   "version": "0.1.0",
-  "description": "Welcome To New Decentralized World! Our Mission is Simple, Let’s Make Blockchain And Cryptocurrency Easy To World",
+  "description": "Blog Web3 Decentralized News",
   "main": "index.js",
   "author": "abraham-yusuf",
   "license": "MIT",
@@ -10,9 +10,9 @@
     "url": "git+https://github.com/Web3ID/blog-web3id.git"
   },
   "bugs": {
-    "url": "https://github.com/Web3ID/blog-web3id/issues"
+    "url": "https://github.com/Web3ID/blog-web3id.git/issues"
   },
-  "homepage": "./",
+  "homepage": "https://github.com/Web3ID/blog-web3id.git#readme",
   "scripts": {
     "dev": "next dev",
     "dev:inspect": "NODE_OPTIONS='--inspect' next dev",

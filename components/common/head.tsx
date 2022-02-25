@@ -22,7 +22,7 @@ const Head = () => {
     <>
       <DefaultSeo
         titleTemplate={`%s | ${SITE_NAME}`}
-        title="Tempat Belajar Teknologi Blockchain Dan Cryptocurrency Indonesia"
+        title="Blog Tempat Berbagi Cerita Dan Pengalaman Teknologi Era 4.0"
         description={SEO_DESCRIPTION}
         openGraph={{
           type: 'website',

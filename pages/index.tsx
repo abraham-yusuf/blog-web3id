@@ -22,29 +22,29 @@ function Home({
     <Layout navigation={navigation}>
       {isTablet ? (
         //Tablet and smaller devices
-        <ArticlesCarousel title="Artikel Populer" articles={articles.slice(0, 4)} />
+        <ArticlesCarousel title="Top stories" articles={articles.slice(0, 4)} />
       ) : (
         <ArticlesHero articles={articles.slice(0, 4)} />
       )}
 
-      <ArticlesList articles={articles.slice(5, 10)} title="Terkini" />
+      <ArticlesList articles={articles.slice(5, 10)} title="Recent" />
 
       <div className="lg:py-24 lg:flex lg:w-full lg:gap-28 lg:mx-auto">
         <ArticlesList
           articles={articles.slice(0, 5)}
-          title="Unggulan"
+          title="Featured"
           variant="top"
           className="lg:w-1/2"
         />
         <ArticlesList
           articles={articles.slice(6, 11)}
-          title="Populer"
+          title="Popular"
           variant="top"
           className="lg:w-1/2"
         />
       </div>
 
-      <ArticlesList articles={articles.slice(10, 15)} title="Artikel Lainnya" />
+      <ArticlesList articles={articles.slice(10, 15)} title="More articles" />
     </Layout>
   )
 }

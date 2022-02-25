@@ -41,7 +41,7 @@ const ArticleCardList = ({ article }: { article: TArticle }) => {
           </a>
         </Link>
         <div className="serif text-s">
-          Oleh{' '}
+          By{' '}
           <Link href={`/contributors/${article.author.slug}`}>
             <a className="hover:underline">{article.author.name}</a>
           </Link>
